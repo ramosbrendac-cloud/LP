@@ -1,0 +1,77 @@
+/* PALETA DE COLORES
+   Amarillo suave (principal): #FFD93D
+   Negro (sec): #000000
+   Rosa suave (sec): #FF6F91
+   Blanco: #FFFFFF
+   Azul turquesa (sec): #4FC3F7
+*/
+
+/* ---- ESTILOS GENERALES ---- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/* ---- ENCABEZADO ---- */
+.hero {
+    background-color: #4FC3F7;
+    padding: 50px 20px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: #000000;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+/* ---- CONTENIDO PRINCIPAL ---- */
+.img-container {
+    margin-top: 40px;
+}
+
+img {
+    width: 280px;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.descripcion {
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin: 25px auto;
+    color: #444;
+}
+
+/* ---- BOTÓN CTA ---- */
+.boton {
+    display: inline-block;
+    background-color: #FF6F91;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.boton:hover {
+    background-color: #4FC3F7;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #FFD93D;
+    color: #FFD93D;
+}
